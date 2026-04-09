@@ -1,7 +1,8 @@
-print("Test file for DSCI510 final project")
+from src.youtube_api import get_youtube_data
 
-try:
-    import googleapiclient
-    print("google-api-python-client installed")
-except:
-    print("library not installed")
+api_key = "YOUR_API_KEY"
+
+data = get_youtube_data(api_key)
+
+print("API works!")
+print("Number of videos retrieved:", len(data["items"]))
