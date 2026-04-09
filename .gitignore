@@ -1,0 +1,5 @@
+.env
+kaggle.json
+data/
+results/
+__pycache__/
