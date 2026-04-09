@@ -1,16 +1,16 @@
 from googleapiclient.discovery import build
 
-api_key = "YOUR_API_KEY"
+def get_youtube_data(api_key):
 
-youtube = build("youtube", "v3", developerKey=api_key)
+    youtube = build("youtube", "v3", developerKey=api_key)
 
-request = youtube.search().list(
-    part="snippet",
-    q="social media",
-    type="video",
-    maxResults=50
-)
+    request = youtube.search().list(
+        part="snippet",
+        q="social media",
+        type="video",
+        maxResults=50
+    )
 
-response = request.execute()
+    response = request.execute()
 
-print(response)
+    return response
