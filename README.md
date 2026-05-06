@@ -82,6 +82,26 @@ python tests.py
 jupyter notebook results.ipynb
 ```
 
+## Challenges
+
+Several challenges were encountered during this project.
+
+One of the main difficulties was working with data from multiple social media platforms because each platform uses different engagement metrics and content structures. Data cleaning and standardization were necessary before performing comparisons across TikTok, Instagram, and YouTube.
+
+Another challenge was handling API limitations and missing data. Some engagement metrics were inconsistent across datasets, which required additional preprocessing and validation.
+
+In addition, comparing audience interaction fairly across platforms was difficult because each platform has different recommendation algorithms and user behaviors.
+
+---
+
+## Future Improvements
+
+Several improvements could be made in future versions of this project.
+
+Future work may include collecting larger datasets, adding more social media platforms, and performing deeper sentiment analysis on user comments. More advanced machine learning models could also be applied to predict engagement performance and analyze audience behavior patterns.
+
+Additional visualizations and dashboard tools could also improve the presentation and interpretation of the analysis results.
+
 ## Project Structure
 
 ```bash
