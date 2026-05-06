@@ -3,3 +3,6 @@ kaggle.json
 data/
 results/
 __pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
