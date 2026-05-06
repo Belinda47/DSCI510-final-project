@@ -107,12 +107,12 @@ Additional visualizations and dashboard tools could also improve the presentatio
 ```bash
 DSCI510-final-project/
 │
-├── src/
 ├── docs/
-├── results.ipynb
-├── tests.py
+├── src/
+├── .env.example
+├── .gitignore
+├── README.md
 ├── main.py
 ├── requirements.txt
-├── README.md
-├── .env.example
-└── .gitignore
+├── results.ipynb
+└── tests.py
