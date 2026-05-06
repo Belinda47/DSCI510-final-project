@@ -1,2 +1,7 @@
 pandas
+numpy
+matplotlib
+requests
 google-api-python-client
+python-dotenv
+jupyter
