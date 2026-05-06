@@ -43,6 +43,44 @@ TikTok content tends to generate rapid short-term engagement, while YouTube vide
 The project also found that audience trust and creator interaction can strongly influence engagement performance.
 
 ---
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Belinda47/DSCI510-final-project.git
+cd DSCI510-final-project
+```
+
+2. Install required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file based on `.env.example`:
+
+```env
+YOUTUBE_API_KEY=
+```
+
+4. Run the main pipeline:
+
+```bash
+python main.py
+```
+
+5. Run tests:
+
+```bash
+python tests.py
+```
+
+6. Open the results notebook:
+
+```bash
+jupyter notebook results.ipynb
+```
 
 ## Project Structure
 
